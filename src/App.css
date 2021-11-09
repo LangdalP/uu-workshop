@@ -9,12 +9,110 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
   background-color: #12314d;
-  color: rgb(157, 157, 157);
+  color: rgb(48, 109, 123);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.frisbeePic {
+  width: 60px;
+  background-color: #2573d2;
+}
+
+.framside p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.App {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.submitButton {
+  border: none;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.inspo-pic {
+  margin: 2px;
+  height: 400px;
+}
+
+.header {
+  display: flex;
+}
+
+.branding {
+  width: 50%;
+}
+
+.navigation {
+  width: 50%;
+}
+
+.navigation li {
+  list-style: none;
+  display: inline;
+  margin-right: 5px;
+}
+
+.navigation a {
+  color: rgb(157, 157, 157);
+  text-decoration: none;
+}
+
+.navigation a {
+  color: rgb(157, 157, 157);
+}
+
+.footer {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+
+/* Styling for notifications */
+.rc-notification {
+  width: 20vw;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  font-size: 20px;
+}
+
+.rc-notification-notice {
+  border: 2px dotted white;
+  padding: 0.2rem;
+}
+
+.rc-notification-notice-content {
+  display: inline-block;
+}
+
+.rc-notification a {
+  color: rgb(157, 157, 157);
 }

@@ -18,4 +18,4 @@ For å kjøre prosjektet trenger du node og npm. Deretter:
 - Har viktige bilder en alt-tekst?
 - Finnes det innhold som bare er der en tidsavgrenset stund? Får skjermleser med seg dette?
 - Er det lett å forstå hvordan ting i skjemaet skal fylles ut?
-- Se hele presentasjonen om UU i fila `universell-utforming.pdf`
+- Se hele presentasjonen om UU i fila `universell-utforming-v2.pdf`

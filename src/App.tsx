@@ -19,7 +19,7 @@ function App() {
             className="frisbeePic"
           />
           <h2>Peders diskgolfside</h2>
-          <h3>Ikkje kall det frisbeegolf please!</h3>
+          <h3>- Ikkje kall det frisbeegolf please!</h3>
         </div>
         <div className="navigation">
           <ul>

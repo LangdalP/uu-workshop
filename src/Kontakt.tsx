@@ -18,26 +18,26 @@ function Kontakt() {
         <p>Kor kul synest du sida mi er?</p>
 
         <div>
-          <input type="checkbox" id="nei" name="nei" defaultChecked />
+          <input type="checkbox" id="nei" name="nei" defaultChecked tabIndex={1} />
           <span>Nei</span>
         </div>
 
         <div>
-          <input type="checkbox" id="litt" name="litt" />
+          <input type="checkbox" id="litt" name="litt" tabIndex={4} />
           <span>Litt</span>
         </div>
 
         <div>
-          <input type="checkbox" id="veldig" name="veldig" />
+          <input type="checkbox" id="veldig" name="veldig" tabIndex={2} />
           <label htmlFor="veldig">Veldig!</label>
         </div>
 
         <p>Epost</p>
-        <input type="text" id="epost" name="epost" />
+        <input type="text" id="epost" name="epost" tabIndex={3} />
 
         <p>Kva vil du kontakte meg om?</p>
 
-        <textarea>Skriv her</textarea>
+        <textarea tabIndex={5}>Skriv her</textarea>
       </div>
     </>
   )
